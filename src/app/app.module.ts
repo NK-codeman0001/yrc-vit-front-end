@@ -5,11 +5,29 @@ import {CommonModule} from "@angular/common";
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { NgxPopper } from 'angular-popper';
 
+import {SharedService} from './services/shared.service';
+
 import { AppComponent } from './app.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { TeamComponent } from './components/team/team.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { BloodDonationComponent } from './components/blood-donation/blood-donation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    GalleryComponent,
+    TeamComponent,
+    ContactusComponent,
+    HeaderComponent,
+    FooterComponent,
+    BloodDonationComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +37,9 @@ import { AppComponent } from './app.component';
     ReactiveFormsModule,
     NgxPopper
   ],
-  providers: [],
+  providers: [
+    SharedService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
