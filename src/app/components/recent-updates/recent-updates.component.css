@@ -1,0 +1,10 @@
+.row-content {
+    margin: 0px auto;
+    padding: 40px 0px;
+    min-height: 100%; 
+}
+
+.fullspan{
+    width: 100%;
+    min-height: 100vh;
+  }

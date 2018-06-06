@@ -16,6 +16,8 @@ import { ContactusComponent } from './components/contactus/contactus.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BloodDonationComponent } from './components/blood-donation/blood-donation.component';
+import { RecentUpdatesComponent } from './components/recent-updates/recent-updates.component';
+import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { BloodDonationComponent } from './components/blood-donation/blood-donati
     ContactusComponent,
     HeaderComponent,
     FooterComponent,
-    BloodDonationComponent
+    BloodDonationComponent,
+    RecentUpdatesComponent,
+    JumbotronComponent
   ],
   imports: [
     BrowserModule,
