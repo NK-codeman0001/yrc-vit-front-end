@@ -3,12 +3,12 @@
     height: 40vw;
     width:100%;
     overflow: hidden;
-    position:fixed;
-    z-index: -1;
+    /*position:fixed;
+    z-index: -1;*/
 }
 #about-yrc
 {
-    margin-top: 40vw;
+    /*margin-top: 40vw;*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding:1.5vw;
     background-color: rgb(255, 255, 255);
