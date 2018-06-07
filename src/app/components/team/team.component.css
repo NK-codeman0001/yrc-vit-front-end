@@ -1,0 +1,54 @@
+.our-team
+{
+    background-color: rgb(219, 182, 182);
+    padding: calc(1em + 1vmin);
+}
+.our-team h2
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(2em + 1vmin);
+    font-weight: bold;
+}
+.team
+{
+    margin-top:2vw;
+    margin-bottom: 2vw;
+}
+.team-member
+{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    height: auto;
+    border-radius:5%;
+    overflow: hidden;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    text-align: center;
+    font-size: calc(0.6em + 0.45vmin);
+}
+@media screen and (min-width: 800px)
+{
+    .team-member
+    {
+        white-space: nowrap;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+    }
+}
+.team-member img
+{
+    width: 100%;
+    height: auto;
+}
+.social-media
+{
+    display: inline-block;
+}
+.social-media img
+{
+    height: calc(1em + 1vmin);
+    width: auto;
+    margin: 0.3vw;
+}
