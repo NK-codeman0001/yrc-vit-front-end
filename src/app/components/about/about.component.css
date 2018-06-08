@@ -1,6 +1,5 @@
 #carouselExampleSlidesOnly
 {
-    height:40vw;
     width:100%;
     overflow: hidden;
     position:fixed;
@@ -12,26 +11,29 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding:1.5vw;
     background-color: rgb(255, 255, 255);
-    color: rgb(131, 0, 0);
+    color: rgb(151, 110, 133);
     font-size: calc(0.6em + 1.5vmin);
+    text-align: justify;
 }
 #about-yrc h2
 {
     text-align: center;
-    color: rgb(122, 34, 34);
+    color: rgb(150, 82, 120);
     font-weight: bold;
     font-size: calc(1em + 1.5vmin);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0.5px 0.5px 0.5px rgb(204, 148, 178);
 }
 #principles h4
 {
     font-size: calc(0.5em + 1.4vmin);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px rgb(189, 156, 175);
 }
 #principles
 {
     color: white;
-    background-color: rgb(122, 34, 34);
+    background-color: rgb(224, 170, 200);
     font-size: calc(0.5em + 1.5vmin);
     padding:1vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -58,6 +60,7 @@
     padding:2px;
     font-size: calc(0.5em + 1.5vmin);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0.5px 0.5px 0.5px rgb(117, 117, 117);
 }
 #mission-motto
 {
