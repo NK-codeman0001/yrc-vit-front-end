@@ -1,4 +1,4 @@
-.row-content {
+/*.row-content {
     margin: 0px auto;
     padding: 40px 0px;
     min-height: 100%; 
@@ -7,4 +7,69 @@
 .fullspan{
     width: 100%;
     min-height: 100vh;
-  }
+  }*/
+.facebook-posts
+{
+    background-color: rgb(146, 199, 195);
+    padding: 3vw;
+    background-size: 100% auto;
+}
+.events
+{
+    width: 600px;
+    height: auto;
+    background-color: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+@media screen and (max-width: 630px)
+{
+    .events
+    {
+        width: 100%;
+    }
+}
+.carousel.slide
+{
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.carousel-control-prev-icon 
+{
+    margin-left: calc(-5.5em - 2vmin);
+    background-color: inherit;
+    padding: 1vw;
+}
+.carousel-control-next-icon
+{
+    margin-right: calc(-5.5em - 2vmin);
+    background-color: inherit;
+    padding: 1vw;
+}
+.carousel-indicators
+{
+    margin-bottom: -50px;
+}
+@media screen and (max-width: 630px)
+{
+    .events
+    {
+        width: 100%;
+        height: auto;
+    }
+    .carousel.slide 
+    {
+        width: auto;
+        height: auto;
+    }
+}
+.facebook-posts h2
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

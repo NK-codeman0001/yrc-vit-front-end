@@ -1,6 +1,7 @@
 .our-team
 {
-    background-color: rgb(219, 182, 182);
+    /*background-color: rgb(219, 182, 182);*/
+    background-size: auto 100%;
     padding: calc(1em + 1vmin);
 }
 .our-team h2
