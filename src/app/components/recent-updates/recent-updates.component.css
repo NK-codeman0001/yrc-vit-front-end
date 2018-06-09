@@ -41,15 +41,22 @@
 }
 .carousel-control-prev-icon 
 {
-    margin-left: calc(-5.5em - 2vmin);
+    margin-left: calc(-2.5em - 2vmin);
     background-color: inherit;
     padding: 1vw;
+    position: absolute;
+    top: calc(15em + 15vmin);
 }
 .carousel-control-next-icon
 {
-    margin-right: calc(-5.5em - 2vmin);
     background-color: inherit;
     padding: 1vw;
+    position: absolute;
+    top: calc(15em + 15vmin);
+}
+.carousel-control-next
+{
+    margin-right: calc(-2.5em - 2vmin);
 }
 .carousel-indicators
 {

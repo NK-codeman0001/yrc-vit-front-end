@@ -11,29 +11,29 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding:1.5vw;
     background-color: rgb(255, 255, 255);
-    color: rgb(151, 110, 133);
+    color: #85434e;
     font-size: calc(0.6em + 1.5vmin);
     text-align: justify;
 }
 #about-yrc h2
 {
     text-align: center;
-    color: rgb(150, 82, 120);
+    color: #68101e;
     font-weight: bold;
     font-size: calc(1em + 1.5vmin);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 0.5px 0.5px 0.5px rgb(204, 148, 178);
+    text-shadow: 0.5px 0.5px 0.5px hsl(353, 100%, 98%);
 }
 #principles h4
 {
     font-size: calc(0.5em + 1.4vmin);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px 1px rgb(189, 156, 175);
+    text-shadow: 1px 1px 1px rgb(87, 59, 75);
 }
 #principles
 {
     color: white;
-    background-color: rgb(224, 170, 200);
+    background-color: #830519;
     font-size: calc(0.5em + 1.5vmin);
     padding:1vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
