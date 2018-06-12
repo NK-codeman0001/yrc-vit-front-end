@@ -10,7 +10,8 @@
   }*/
 .facebook-posts
 {
-    background-color: rgb(146, 199, 195);
+    /*background-color: rgb(146, 199, 195);*/
+    background-color: #C09F80;
     padding: 3vw;
     background-size: 100% auto;
 }
@@ -77,8 +78,10 @@
 }
 .facebook-posts h2
 {
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
-    text-shadow: 1px 1px 1px rgb(146, 167, 168);
+    /*text-shadow: 1px 1px 1px rgb(146, 167, 168);*/
+    text-shadow: 1px 1px 1px rgb(158, 131, 106);
     font-size: calc(1.5em + 1vmin);
+    margin-top: 1vw;
 }

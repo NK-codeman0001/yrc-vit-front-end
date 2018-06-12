@@ -1,9 +1,9 @@
 .photo-gallery
 {
-    background-color: #d6d6d6;
+    background-color: #D7CEC7;
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-top: 1vw;
+    padding-top: 3vw;
     padding-bottom: 1vw;
 }
 .photo-gallery h2
@@ -12,6 +12,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(1.5em + 1vmin);
     margin: 1vw;
+    color: #76323F;
 }
 .photo-gallery .column img
 {

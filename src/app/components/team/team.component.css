@@ -1,17 +1,21 @@
 .our-team
 {
-    /*background-color: rgb(219, 182, 182);*/
+    background-color: #76323F;
     background-size: auto 100%;
-    padding: calc(1em + 1vmin);
+    padding-top: 3.5vw;
+    padding-bottom: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 .our-team h2
 {
     text-align: center;
-    color: rgb(0, 0, 0);
+    /*color: rgb(0, 0, 0);*/
+    color: #D7CEC7;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(2em + 1vmin);
     font-weight: bold;
-    text-shadow: 1px 1px 1px rgb(153, 153, 153);
+    /*text-shadow: 1px 1px 1px rgb(153, 153, 153);*/
 }
 .team
 {

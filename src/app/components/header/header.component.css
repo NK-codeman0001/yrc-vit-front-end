@@ -1,0 +1,52 @@
+@media screen and (min-width: 992px)
+{
+    .navbar
+    {
+        height:3.5vw;
+        position:fixed;
+        top:0;
+        width:100%;
+        z-index:10;
+    }
+    #scroll-top
+    {
+        display: none;
+    }
+}
+.navbar.navbar-dark a.nav-link 
+{
+    color: rgb(190, 190, 190);
+}
+.navbar.navbar-dark a.nav-link:hover
+{
+    cursor: pointer;
+    color: white;
+}
+.navbar .navbar-brand
+{
+    background-color: inherit;
+}
+#scroll-top
+{
+    position:fixed;
+    bottom:20px;
+    right:30px;
+    z-index:99;
+    background-color: rgb(73, 73, 73);
+    border-radius:4px;
+    padding:0.5vw;
+    width:calc(2em + 1vmin);
+    height:calc(2em + 1vmin);
+    box-shadow: 2px 2px 2px;
+    border: none;
+}
+#scroll-top a
+{
+    text-decoration: none;
+    font-size:calc(1em + 1vmin);
+    color: white;
+}
+#scroll-top a:hover
+{
+    cursor: pointer;
+}

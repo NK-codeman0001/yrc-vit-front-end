@@ -1,0 +1,44 @@
+.blood_donation
+{
+    background-color: #565656;
+    padding: 1.5vw;
+}
+.blood_donation h2
+{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2.5vw;
+}
+.bd
+{
+    display: inline;
+}
+.media img
+{
+    height: 20vw;
+    width: auto;
+    margin: 1vw;
+}
+.media p
+{
+    color: white;
+    text-align: justify;
+}
+.bd-img
+{
+    display: none;
+}
+@media screen and (max-width: 800px)
+{
+    .bd-img 
+    {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .media img 
+    {
+        display: none;
+    }
+}

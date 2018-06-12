@@ -1,31 +1,29 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbar-top">
-  <a class="navbar-brand" href="#" ><img src="assets/images/bg/logo.png" style="width: 60px; height: auto;"></a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar-top">
+  <a class="navbar-brand" href="#" ><img src="assets/images/bg/logo yrc white.jpg" style="width: 60px; height: auto;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#about" >About<span class="sr-only">(current)</span></a>
+        <a class="nav-link" [ngx-scroll-to]="'#about-yrc'" [ngx-scroll-to-duration]='1000'>About<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#recent-updates" >Recent Updates</a>
+        <a class="nav-link" [ngx-scroll-to]="'#recent-updates-component'" [ngx-scroll-to-duration]='1000'>Recent Updates</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#activities-events" >Activites & Events</a>
+        <a class="nav-link" [ngx-scroll-to]="'#awards-component'" [ngx-scroll-to-duration]='1000' >Awards</a>
       </li>
       <li class="nav-item">
-          <a href="#team" class="nav-link">Team</a>
+        <a class="nav-link" [ngx-scroll-to]="'#blood-donation-component'" [ngx-scroll-to-duration]='1000'>Blood Donation</a>
       </li>
       <li class="nav-item">
-        <a href="#awards" class="nav-link">Awards</a>
+        <a class="nav-link" [ngx-scroll-to]="'#gallery-component'" [ngx-scroll-to-duration]='1000'>Photo Gallery</a>
       </li>
       <li class="nav-item">
-        <a href="#contact" class="nav-link">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a href="#blood-donation" class="nav-link"><span class="badge badge-danger" style="font-size: 15px;">Blood Donation</span></a>
+          <a class="nav-link" [ngx-scroll-to]="'#team-component'" [ngx-scroll-to-duration]='1000'>Team</a>
       </li>
     </ul>
   </div>
 </nav>
+<button id="scroll-top"><a [ngx-scroll-to]="'#navbar-top'" [ngx-scroll-to-duration]='1000'>^</a></button>
