@@ -1,6 +1,6 @@
 .our-team
 {
-    background-color: #76323F;
+    background-color: #C6CFD6;
     background-size: auto 100%;
     padding-top: 3.5vw;
     padding-bottom: 2vw;
@@ -11,7 +11,7 @@
 {
     text-align: center;
     /*color: rgb(0, 0, 0);*/
-    color: #D7CEC7;
+    color: rgb(40, 42, 44);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(2em + 1vmin);
     font-weight: bold;

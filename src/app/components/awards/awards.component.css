@@ -1,13 +1,16 @@
 .awards
 {
-    background-color: #76323F;
+    background-color:  #C6CFD6;
     padding: 1.5vw;
-    color: #D7CEC7;
+    color: white;
 }
 .awards h2
 {
     text-align: center;
     margin-top: 2vw;
+    text-shadow: 1px 1px 1px rgb(107, 128, 146);
+    font-size: calc(1.5em + 1.5vmin);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #hexGrid {
     display: flex;

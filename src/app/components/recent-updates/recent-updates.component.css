@@ -10,8 +10,7 @@
   }*/
 .facebook-posts
 {
-    /*background-color: rgb(146, 199, 195);*/
-    background-color: #C09F80;
+    background-color: #E7E7DF;
     padding: 3vw;
     background-size: 100% auto;
 }
@@ -55,6 +54,16 @@
     position: absolute;
     top: calc(15em + 15vmin);
 }
+span.carousel-control-prev-icon
+{
+    background-color: rgb(90, 90, 83);
+    box-shadow: 2px 2px 2px black;
+}
+span.carousel-control-next-icon
+{
+    background-color: rgb(90, 90, 83);
+    box-shadow: 2px 2px 2px black;
+}
 .carousel-control-next
 {
     margin-right: calc(-2.5em - 2vmin);
@@ -78,10 +87,10 @@
 }
 .facebook-posts h2
 {
-    color: white;
+    color: #003031;
     text-align: center;
     /*text-shadow: 1px 1px 1px rgb(146, 167, 168);*/
-    text-shadow: 1px 1px 1px rgb(158, 131, 106);
+    text-shadow: 0.5px 0.5px 0.5px #364646;
     font-size: calc(1.5em + 1vmin);
     margin-top: 1vw;
 }
