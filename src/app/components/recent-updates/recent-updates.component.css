@@ -71,6 +71,7 @@ span.carousel-control-next-icon
 .carousel-indicators
 {
     margin-bottom: -50px;
+    z-index: 10;
 }
 @media screen and (max-width: 630px)
 {
