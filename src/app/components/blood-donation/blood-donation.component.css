@@ -42,4 +42,25 @@
     {
         display: none;
     }
+    .registration
+    {
+        display: none;
+    }
+}
+p
+{
+    color: white;
+}
+.btn.btn-primary
+{
+    background-color: #E7E7DF;
+    color: #CE0000;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(109, 0, 0);
+}
+.btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary:hover
+{
+    border: none;
+    box-shadow: 0 0 0;
+    outline: none;
 }
