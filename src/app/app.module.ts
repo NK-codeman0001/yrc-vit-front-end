@@ -17,7 +17,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BloodDonationComponent } from './components/blood-donation/blood-donation.component';
 import { RecentUpdatesComponent } from './components/recent-updates/recent-updates.component';
-import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { AwardsComponent } from './components/awards/awards.component';
 import { ContactusComponent } from './components/contactus/contactus.component'
 
@@ -32,7 +31,6 @@ import { ContactusComponent } from './components/contactus/contactus.component'
     FooterComponent,
     BloodDonationComponent,
     RecentUpdatesComponent,
-    JumbotronComponent,
     AwardsComponent,
     ContactusComponent
   ],
