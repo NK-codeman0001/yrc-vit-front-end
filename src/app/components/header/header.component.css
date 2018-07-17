@@ -50,3 +50,17 @@
 {
     cursor: pointer;
 }
+.btn.btn-primary
+{
+    background-color:#CE0000;
+    color: #E7E7DF;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(27, 25, 25);
+    transition: none;
+}
+.btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary:hover
+{
+    border: none;
+    box-shadow: 0 0 0;
+    outline: none;
+}
