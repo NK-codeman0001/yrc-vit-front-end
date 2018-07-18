@@ -15,6 +15,11 @@
     color: rgb(48, 67, 80);
     text-shadow: 0.5px 0.5px 0.5px rgb(166, 180, 189);
 }
+.photo-gallery .column .caption-style-1 li
+{
+    width: 100%;
+    height: auto;
+}
 .photo-gallery .column img
 {
     width: 100%;

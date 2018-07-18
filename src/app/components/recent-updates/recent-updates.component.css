@@ -14,7 +14,7 @@
     padding: 3vw;
     background-size: 100% auto;
 }
-.events
+/*.events
 {
     width: 600px;
     height: auto;
@@ -85,13 +85,34 @@ span.carousel-control-next-icon
         width: auto;
         height: auto;
     }
-}
+}*/
 .facebook-posts h2
 {
     color: #003031;
     text-align: center;
-    /*text-shadow: 1px 1px 1px rgb(146, 167, 168);*/
     text-shadow: 0.5px 0.5px 0.5px #364646;
     font-size: calc(1.5em + 1vmin);
     margin-top: 1vw;
+}
+.facebook-iframe
+{
+    width: 40%;
+    height: 50vw;
+    margin-top: 2vw;
+}
+@media screen and (max-width: 800px)
+{
+    .facebook-iframe
+    {
+        width: 70%;
+        height: 75vw;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .facebook-iframe
+    {
+        width: 90%;
+        height: 100vw;
+    }
 }
