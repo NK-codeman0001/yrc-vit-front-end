@@ -18,7 +18,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BloodDonationComponent } from './components/blood-donation/blood-donation.component';
 import { RecentUpdatesComponent } from './components/recent-updates/recent-updates.component';
 import { AwardsComponent } from './components/awards/awards.component';
-import { ContactusComponent } from './components/contactus/contactus.component'
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { RouterModule, Routes } from '@angular/router';
+
+const appRoutes: Routes = [
+  {path: 'home', component: HomeComponent},
+  {path: 'blood-donation', component: BloodDonationComponent}
+]
 
 @NgModule({
   declarations: [
@@ -41,7 +48,8 @@ import { ContactusComponent } from './components/contactus/contactus.component'
     FormsModule,
     ReactiveFormsModule,
     NgxPopper,
-    ScrollToModule.forRoot()
+    ScrollToModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [
     SharedService
